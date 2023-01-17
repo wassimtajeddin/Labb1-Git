@@ -70,6 +70,9 @@ ls
 
 15. notepad fix2.txt
 
+git commit -a -m "Add commands in fix2.txt"
+
+16. git push --all https://github.com/wassimtajeddin/Labb1-git.git
 
 
 
