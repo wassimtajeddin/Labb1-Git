@@ -1,0 +1,78 @@
+1. mkdir Labb1-Git
+
+cd Labb1-Git
+
+git init
+
+2. New-Item README.md
+
+notepad README.md
+
+git add .\README.md
+
+3. git commit -m "Initial commit"
+
+4. git switch -c feature1
+
+5. notepad README.md
+
+git add .\README.md
+
+git commit -m " Add dog and change the second row to mouse"
+
+6. git switch main
+
+notepad README.md
+
+git add README.md
+
+git commit -m "Change the seconed raw to mammoth"
+
+7. git merge feature1
+
+notepad README.md
+
+git add README.md
+
+git commit -m "Merge feature1 and fix conflicts"
+
+8. git tag extinct
+
+9. git reset --hard HEAD~
+
+10. git branch feature2
+
+11. notepad README.md
+
+git add .\README.md
+
+git commit -m "Change lower case to upper case"
+
+12. git switch feature2
+
+New-Item fix1.txt
+
+git add fix1.txt
+
+git commit -m "Add fix1.txt"
+
+New-Item fix2.txt
+
+git add fix2.txt
+
+git commit -m "Add fix2.txt"
+
+13. git switch main
+
+ls
+
+14. git cherry-pick feature2
+
+15. notepad fix2.txt
+
+
+
+
+
+
+
