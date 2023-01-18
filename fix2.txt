@@ -74,37 +74,8 @@ git commit -a -m "Add commands in fix2.txt"
 
 16. git push --all https://github.com/wassimtajeddin/Labb1-git.git
 
-git commit -a -m "Add push command to fix2.txt"
 
-17. New-Item .gitignore
 
-notepad .gitignore
-
-New-Item test.jar
-
-git status
-
-git add .gitignore
-
-git commit -m "Add .gitignore"
-
-mkdir target
-
-cd target
-
-New-Item test.html
-
-git add test.html
-
-cd..
-
-git commit -m "Add test.html"
-
-notepad fix2.txt
-
-git commit -a -m "Add all commands"
-
-git push
 
 
 
